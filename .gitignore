@@ -1,0 +1,126 @@
+# ====================================
+# Node.js
+# ====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ====================================
+# Environment Files
+# ====================================
+.env
+.env.*.local
+.env.local
+.env.test
+.env.production
+
+# ====================================
+# Build Output
+# ====================================
+build/
+dist/
+out/
+.next/
+.cache/
+.tmp/
+.temp/
+.serve/
+
+# ====================================
+# TypeScript
+# ====================================
+*.tsbuildinfo
+
+# ====================================
+# Logs
+# ====================================
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+pids/
+pm2.log
+pm2.pid
+
+# ====================================
+# Testing
+# ====================================
+coverage/
+test-output/
+jest-test-results.json
+cypress/videos/
+cypress/screenshots/
+
+# ====================================
+# Database files
+# ====================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ====================================
+# Uploaded files (user-generated files)
+# ====================================
+uploads/
+public/uploads/
+tmp/
+files/
+storage/
+
+# ====================================
+# IDE & Editor settings
+# ====================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# JetBrains IDEs (WebStorm, IntelliJ)
+*.iml
+*.iws
+*.ipr
+out/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ====================================
+# Lint/Format tools
+# ====================================
+.eslintcache
+.prettiercache
+
+# ====================================
+# Misc
+# ====================================
+*.tgz
+*.bak
+*.old
+*.orig
+*.swp
+*.zip
+*.tar
+*.gz
+*.tgz
+
+# Optional: Ignore local Docker config
+docker-compose.override.yml
