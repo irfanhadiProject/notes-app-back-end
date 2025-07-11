@@ -1,5 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const notes = require('./api/notes');
+const NotesValidator = require('./validator/notes/index');
 const NotesService = require('./services/inMemory/NotesService');
 
 const init = async () => {
@@ -19,6 +20,7 @@ const init = async () => {
     plugin: notes,
     options: {
       service: notesService,
+      validator: NotesValidator,
     },
   });
 
