@@ -14,6 +14,7 @@ pnpm-lock.yaml
 # Environment Files
 # ====================================
 .env
+.prod.env
 .env.*.local
 .env.local
 .env.test
@@ -124,3 +125,6 @@ Desktop.ini
 
 # Optional: Ignore local Docker config
 docker-compose.override.yml
+
+# Others
+notes-api-webserver.pem
