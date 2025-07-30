@@ -71,11 +71,10 @@ cypress/screenshots/
 # ====================================
 # Uploaded files (user-generated files)
 # ====================================
-uploads/
 public/uploads/
 tmp/
 files/
-storage/
+src/api/uploads/file
 
 # ====================================
 # IDE & Editor settings
